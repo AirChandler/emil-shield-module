@@ -6,11 +6,9 @@
 # distinguish build outputs from each other:
 #
 # board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
+# shield: [ "emil_board" ]
 include:
    - board: nice_nano_v2
      shield: emil_board
      cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
      artifact-name: emil_board_with_logging
-#
----
