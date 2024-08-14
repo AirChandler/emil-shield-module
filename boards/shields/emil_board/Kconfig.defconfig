@@ -1,0 +1,6 @@
+if SHIELD_EMIL_BOARD
+
+config ZMK_KEYBOARD_NAME
+    default "Emil Board"
+
+endif

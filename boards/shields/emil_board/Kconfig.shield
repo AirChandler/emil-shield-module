@@ -1,0 +1,5 @@
+# Copyright (c) 2024 Chandler Keep
+# SPDX-License-Identifier: MIT
+
+config SHIELD_EMIL_BOARD
+    def_bool $(shields_list_contains,emil_board)

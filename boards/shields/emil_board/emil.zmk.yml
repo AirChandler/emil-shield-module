@@ -1,0 +1,9 @@
+file_format: "1"
+id: emil_board
+name: Emil_Board
+type: shield
+url: https://zmk.dev/docs/development/new-shield
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
